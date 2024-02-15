@@ -1,0 +1,60 @@
+.container{
+    width: 0 auto;
+
+}
+.form-container{
+    width: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.form1{
+    display: grid;
+    grid-template-columns: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.mobno{
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="text"]{
+padding: 5px;
+font-size: 20px;
+}
+input[type="number"]{
+    padding: 5px;
+    font-size: 20px;
+}
+.btn-add-contact{
+    padding: 5px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+color: white;
+}
+.btn-add-contact:hover{
+    padding: 5px;
+    font-size: 20px;
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+}
+ .Unlists{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+} 
+.listser{
+    display: flex;
+    justify-content: space-between;
+
+}

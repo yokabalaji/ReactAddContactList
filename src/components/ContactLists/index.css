@@ -1,0 +1,35 @@
+/* .flexy{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+  
+
+} */
+.ls1{
+
+    /* display: flex;
+    justify-content: space-between;
+flex-wrap: wrap;
+margin: 20px; */
+
+display: flex;
+justify-content: space-between;
+}
+.fav{
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+.fav:hover{
+    outline: none;
+    border: none;
+    background-color:yellow;
+    cursor: pointer;
+    padding: 20px;
+}
+.mobileno{
+    padding: 20px;
+}
